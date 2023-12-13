@@ -17,3 +17,138 @@
 /* Colores */
 
 /* ******************************** */
+body{
+ 
+ display: flex;
+ justify-content: center;
+}
+/* contenedor principal */
+#container{
+width: 90rem;
+height: 64rem;
+background-color: aliceblue;
+display: flex;
+flex-direction:column;
+
+}/* header con foto y texto inciial */
+.header{
+  width: 100%;
+  height:500px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.columnaTexto{
+  width:100%;
+  height:500px;
+  background-color: #FEEBC5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+  
+}
+.columnaTexto h2{
+  font-size: 80px;
+  padding-top: 10px;
+
+}
+.columnaTexto h1{
+  font-size: 60px;
+  padding-top: 10px;
+}
+.columnaTexto h3{
+  font-size: 40px;
+  padding-top:10px;
+}
+.boton{
+  width:170px;
+  height: 50px;
+  background-color: red;
+  border-radius: 25px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+}
+.foto_busqueda{
+  width:100%;
+  background-color:#DEC6E8;
+  height:100%;
+  background-image: url(../img/smartphone/busqueda.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textoPresentacion{
+  width: 100%;
+  height:300px;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.textoIzquierda{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.textoIzquierda p{
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+p span {
+  color: blue;
+  text-decoration: underline;
+}
+.boton2{
+width:300px;
+height: 50px;
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 25px;
+color: white;
+
+
+}
+.seo{
+  width: 100%;
+  height: 224px;
+  display: flex;
+  flex-direction: row;
+
+}
+.fotoSeo{
+  width: 200px;
+  height:200px;
+border-radius: 50%;
+margin-left: 10px;
+margin-top: 10px;
+background-image: url(../img/smartphone/seo.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.textoColumnaSeo{
+ 
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  
+}
+.textoColumnaSeo p{
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
